@@ -93,3 +93,45 @@ nav a{
   height: 48px;
   margin-top: 35px;
 }
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Action Section Styles */
+
+.action-container{
+  margin-top: 116px;
+  margin-bottom: 116px;
+  /* border: 2px solid black; */
+  height: 330px;
+  display: flex;
+  justify-content: space-between;
+  gap: 220px;
+}
+
+.action-texts{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+}
+
+.action-title{
+  font-size: 42px;
+}
+
+.action-description{
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+}
+
+.action-btn{
+  width: 230px;
+  height: 48px;
+}
+
+.action-img img{
+  border-radius: 48px;
+}
