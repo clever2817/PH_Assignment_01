@@ -1,0 +1,52 @@
+/* Google Font Styles */
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .raleway-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+/* Landing Page Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(78, 71, 255, 0.01);
+}
+
+/* Shared Styles */
+.btn-primary{
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #4E47FF;
+}
+
+.nav-container{
+    margin: 0 150px;
+    max-width: 1140px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.nav-btn button{
+    font-weight: bold;
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: ;
+}
