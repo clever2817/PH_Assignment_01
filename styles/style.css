@@ -244,3 +244,8 @@ main {
 .form-label, input[type="button"]{
   display: block;
 }
+
+.form-label{
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
