@@ -248,4 +248,35 @@ main {
 .form-label{
   font-family: "Inter", sans-serif;
   font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  width: 490px;
+  height: 70px;
+  padding: 32px 20px;
+}
+
+textarea {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  width: 490px;
+  height: 135px;
+  margin-bottom: 20px;
+  padding: 32px 20px;
+}
+
+.form-input[placeholder="example@email.com"], .form-input[placeholder="full name"], textarea[placeholder="write your message..."] {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+input[type="button"] {
+  width: 100%;
+  height: 62px;
 }
