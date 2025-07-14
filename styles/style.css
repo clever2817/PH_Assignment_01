@@ -225,3 +225,22 @@ main {
 .feedback-user-img img{
   border-radius: 50%;
 }
+
+
+/* Get in touch Section Styles */
+.touch-container{
+  height: 632px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 115px;
+}
+
+.touch-title{
+  font-family: "Raleway", sans-serif;
+  font-size: 97px;
+}
+
+.form-label, input[type="button"]{
+  display: block;
+}
