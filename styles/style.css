@@ -105,7 +105,7 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 220px;
-  background-color:white;
+  background-color: white;
 }
 
 .action-texts {
@@ -146,43 +146,43 @@ main {
   font-size: 38px;
 }
 
-.users-description{
+.users-description {
   display: flex;
   justify-content: space-around;
   gap: 150px;
   margin-top: 20px;
 }
 
-.users-rating{
+.users-rating {
   font-family: "Inter", sans-serif;
   font-size: 80px;
   color: #4e47ff;
 }
 
-.users-subtitle{
+.users-subtitle {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
 
 /* User Feedback Section Style */
-.feedback-container{
+.feedback-container {
   margin-bottom: 140px;
 }
 
-.feedback-title{
+.feedback-title {
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-size: 42px;
   margin-bottom: 50px;
 }
 
-.feedback-description-container{
+.feedback-description-container {
   display: flex;
   gap: 20px;
 }
 
-.feedback-card{
+.feedback-card {
   background-color: white;
   border-radius: 15px;
   width: 367px;
@@ -194,41 +194,40 @@ main {
   box-shadow: 2px 2px 2px lightgrey;
 }
 
-.feedback-card-title{
+.feedback-card-title {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
 }
 
-.feedback-card-description{
+.feedback-card-description {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
 }
 
-.feedback-user{
+.feedback-user {
   display: flex;
   gap: 15px;
 }
 
-.feedback-user-name{
+.feedback-user-name {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   color: #757575;
   font-weight: 600;
 }
 
-.feedback-date{
+.feedback-date {
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  color: #B3B3B3;
+  color: #b3b3b3;
 }
 
-.feedback-user-img img{
+.feedback-user-img img {
   border-radius: 50%;
 }
 
-
 /* Get in touch Section Styles */
-.touch-container{
+.touch-container {
   height: 632px;
   display: flex;
   justify-content: space-between;
@@ -236,23 +235,24 @@ main {
   gap: 115px;
 }
 
-.touch-title{
+.touch-title {
   font-family: "Raleway", sans-serif;
   font-size: 97px;
 }
 
-.form-label, input[type="button"]{
+.form-label,
+input[type="button"] {
   display: block;
 }
 
-.form-label{
+.form-label {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
 .form-input {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 10px;
   border: none;
   width: 490px;
@@ -261,7 +261,7 @@ main {
 }
 
 textarea {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 10px;
   border: none;
   width: 490px;
@@ -270,7 +270,9 @@ textarea {
   padding: 32px 20px;
 }
 
-.form-input[placeholder="example@email.com"], .form-input[placeholder="full name"], textarea[placeholder="write your message..."] {
+.form-input[placeholder="example@email.com"],
+.form-input[placeholder="full name"],
+textarea[placeholder="write your message..."] {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
@@ -279,4 +281,58 @@ textarea {
 input[type="button"] {
   width: 100%;
   height: 62px;
+}
+
+/* Footer Section Styles */
+
+footer {
+  background-color: white;
+  width: 1440px;
+  height: 428px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  background-color: white;
+  width: 531px;
+  height: 221px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-title {
+  font-family: "Inter", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.footer-subtitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  background-color: white;
+  list-style: none;
+}
+
+footer li a {
+  text-decoration: none;
+}
+
+.footer-nav-links {
+  display: flex;
+  gap: 48px;
+}
+
+.footer-subtitle, .footer-nav-links a{
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #8987A1;
 }
